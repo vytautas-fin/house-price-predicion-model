@@ -1,4 +1,4 @@
-# California-House-Price-Prediction
+# house-price-prediction-model
 This is a regression problem to predict california housing prices.
 
 The dataset contains 20640 entries and 10 variables.
