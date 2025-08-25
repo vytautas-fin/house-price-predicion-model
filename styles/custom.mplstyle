@@ -1,0 +1,101 @@
+# Custom matplotlib style
+
+
+# -------------------------------------------------------------------
+
+# Replace Matplotlib’s default colors with a custom palette
+# axes.prop_cycle: cycler(color = ["#EA7580FF", "#F6A1A5FF", "#F8CD9CFF", "#1BB6AFFF", "#088BBEFF", "#172869FF"]) # "LaCroixColoR::Pamplemousse" from R
+#axes.prop_cycle: cycler(color = ["#346bb3", "#6b58a0", "#a855a0", "#dc528e", "#ff5e6d", "#ff7d44", "#ffa600"]) # from https://www.learnui.design/tools/data-color-picker.html#palette
+
+axes.prop_cycle: cycler(color = ["#3F7AD8", "#6432C6", "#13BF81", "#B715B7", "#DD405B", "#F7CB52", "#44546A"])
+# -------------------------------------------------------------------
+
+# General
+text.color: 333333                 		# Color of general text
+
+# Figure options
+figure.figsize:  7.0, 4.2 					# [ 8.0, 4.8 ], [ 10.0, 6.18 ], [ 6.4, 4.8 matplotlib default ] , [ 7.0, 4.2 ]
+figure.facecolor: white                 # Set the background color of the figure
+figure.dpi: 110
+figure.titlesize: 24.0
+figure.titleweight: normal
+
+# Lines
+lines.solid_capstyle: round    		# Applies to all solid lines globally
+lines.linewidth: 3             			# Works best with thicker lines
+
+# Edges
+patch.edgecolor: w                      # White edges for patch objects like bars
+patch.force_edgecolor: True        # Force all patches to show an edge
+
+# Font style
+font.family: sans-serif  				# Safe approach (Arial preferred, but falls back)  
+font.sans-serif: Arial, Roboto, DejaVu Sans  # Priority order
+
+# Font size
+font.size : 12								# relative sizes (small, medium, large, x-large etc are based on this)
+
+# Title defaults
+axes.titlelocation: left  				# Options: left, center, right
+axes.titlesize : large					    # Size of the axes title (plt.title()).
+axes.titlecolor : 333333
+axes.titleweight : bold
+axes.titlepad : 15
+
+# Axes defaults
+axes.edgecolor : 808080
+axes.facecolor: None					# Transparent background for axes
+axes.linewidth : 0.8
+axes.labelcolor : 808080				# Other option dimgrey
+axes.labelsize : medium
+axes.spines.top : False
+axes.spines.right : False
+axes.axisbelow: False					# Draw axis grid below or above data
+axes.labelpad: 8 							# Space between labels and ticks
+
+# Gridlines
+axes.grid: False                    	
+grid.color: e0e0e0  						# Very light gray
+grid.linewidth: 0.8
+grid.alpha: 0.5     						# Semi-transparent
+
+# Tick defaults
+# X
+xtick.direction: out
+xtick.minor.visible : True
+xtick.major.size: 6
+xtick.minor.size: 3
+xtick.color : 808080
+xtick.labelsize : small
+xtick.bottom: True                      # Show bottom x-axis ticks
+xtick.top: False                        	   # Hide top x-axis ticks
+
+# Y
+ytick.direction: out
+ytick.minor.visible : True
+ytick.major.size: 6
+ytick.minor.size: 3
+ytick.color : 808080
+ytick.labelsize : small
+ytick.left: True                        		# Show left y-axis ticks
+ytick.right: False                      		# Hide right y-axis ticks
+
+# Legends
+legend.frameon: False       		   # Remove border
+legend.fontsize: small         	   # Match tick labels
+legend.title_fontsize: 12   		   # Bold title (if needed)
+
+# Saving
+savefig.dpi: 300            				# High-res for publications
+savefig.bbox: tight         				# Remove whitespace
+savefig.transparent: True   			# Keep transparency
+
+
+
+
+
+
+
+
+
+
