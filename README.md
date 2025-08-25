@@ -8,7 +8,7 @@
 
 ## 🔗 Quick Links
 
-* ➡️ [**View the Jupyter Notebook**]([your-link-to-notebook-viewer-here](https://nbviewer.org/github/vytautas-fin/house-price-predicion-model/blob/master/california-house-price-prediction-model.ipynb))
+* ➡️ [**View the Jupyter Notebook**](https://nbviewer.org/github/vytautas-fin/house-price-predicion-model/blob/master/california-house-price-prediction-model.ipynb)
 
 * 💾 [**Dataset Source on Kaggle**](https://www.kaggle.com/datasets/camnugent/california-housing-prices/data)
 
